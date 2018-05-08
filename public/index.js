@@ -127,7 +127,7 @@ $(function () {
 		});
 		
 		socket.on("session leaver", function(){
-			$('#messages').append($("<li>").text("Your partner has left the session"));
+			$('#messages').append($("<li>").text("Your partner has left the session."));
 		});
 			
 	}
